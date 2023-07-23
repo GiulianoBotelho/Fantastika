@@ -1,0 +1,208 @@
+header{
+   
+    height:6vw;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.figLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 22vw;
+    
+}
+
+.logo{
+    width: 3vw;
+    transition: 240ms;
+}
+
+.navMidia{
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* PRIMEIRO CÃO */
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vw;
+    background-image: url(./assets/Grupo\ 486@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.mainTexto1{
+    font-weight: 800;
+    position: relative;
+    bottom: 22vh;
+    width: 39vw;
+    height: 18vh;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.logoInMain{
+    position: relative;
+    bottom:200px;
+    transition: 400ms;
+}
+
+/* SEGUNDO CÃO */
+.banhoTosa{
+    background-image: url(./assets/cão2\(maior\).png);
+    display: flex;
+    align-items:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.banhoTosaConteudo{
+    position: relative;
+    left: 90px;
+}
+
+.dogTitle2{
+    color: #3A342F;
+    font-size: 4rem;
+    width: 38vw;
+}
+
+.mainTexto2{
+    font-weight: 500;
+    font-size: 3.5rem;
+    width: 30vw;
+    color: #3A342F;
+}
+
+.faleConosco1{
+    background-color:  #3A342F;
+    width: 15vw;
+    height: 10vh;
+    border: none;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    top: 60px;
+    transition: 500ms;
+
+}
+
+/* TERCEIRO CÃO */
+.mordomia{
+    background-image: url(./assets/cão3.png);
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.dogTitle3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 5rem;
+    width: 26vw;
+}
+
+.mainTexto3{
+    font-weight: lighter;
+    font-size: 3.2rem;
+    width: 30vw;
+
+}
+
+.faleConosco2{
+    background-color:  #FFFFFF;
+    color:#252525;
+    width: 15vw;
+    height: 10vh;
+    border: none;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    top: 60px;
+    transition: 500ms;
+}
+
+ /* RODAPE */
+ footer{
+     background-color: #EB4A7B;
+     height: 80vh;
+ }
+.apoio{
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+}
+.apoioTexto{
+   color: #FD6A9A;
+   font-size: 2.5rem;
+   cursor: pointer;
+}
+
+.conteudoApoio{
+     display: flex;
+     width: 40vw;
+    justify-content: space-between;
+}
+
+.patrocinioContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.patrocinio{
+    color: #FD6A9A;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    transition: 500ms;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.contatoInfos{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.figLogoFooter{
+    display: none;
+}
+
+.navFooter{
+display: none;
+} 
+
+.logoFooter{
+    display: none;
+}
+
+

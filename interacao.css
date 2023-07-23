@@ -1,0 +1,62 @@
+.logo:hover{
+    scale:1.1;
+    transition: 240ms;
+    cursor: pointer;
+}
+
+.social:hover{
+    transition: 240ms;
+    scale: 1.1;
+}
+
+.mainTexto1:hover{
+    scale: 1.01;
+    transition: 1000ms;
+    cursor: pointer;
+    
+}
+
+.logoInMain:hover{
+    cursor: pointer;
+    transition: 400ms;
+    scale: 1.1;
+}
+
+.faleConosco1:hover{
+    cursor: pointer;
+    transition: 500ms;
+    scale: 1.1;
+    opacity: 0.9;
+}
+
+.faleConosco2:hover{
+    cursor: pointer;
+    transition: 500ms;
+    scale: 1.1;
+    opacity: 0.9;
+}
+
+.socialFooter:hover{
+    transition: 240ms;
+    scale: 1.1;
+}
+
+.wppFooter:hover{
+    transition: 240ms;
+    scale: 1.1;
+}
+
+.wpp:hover{
+    transition: 240ms;
+    scale: 1.1;
+}
+
+.social:hover{
+    transition: 240ms;
+    scale: 1.1;
+}
+
+.patrocinio:hover{
+    transition: 500ms;
+    scale: 1.1;
+}

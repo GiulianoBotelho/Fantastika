@@ -1,0 +1,177 @@
+@media screen and (max-width: 500px) {
+
+    /* CABEÇALHO */
+    header {
+        height: 8vh;
+        position: fixed;
+        width: 100%;
+    }
+
+    .figLogo {
+        position: relative;
+        left: 50px;
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        width: 45px;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .wpp {
+        width: 25px;
+    }
+
+    /* PRINCIPAL */
+
+    /* PRIMEIRO CÃO */
+    .welcome {
+        background-image: url(./assets/mobile2x.png);
+        height: 90vh;
+        background-position: center;
+    }
+
+    .mainTexto1 {
+        font-size: 2rem;
+        height: 6.8vh;
+        width: 80vw;
+    }
+
+    .logoInMain {
+        width: 120px;
+    }
+
+    /* PRIMEIRO CÃO FIM */
+
+    /* SEGUNDO CÃO */
+    .banhoTosa {
+        background-image: url(./assets/cao2mobile2x.png);
+        height: 140vh;
+    }
+
+    .banhoTosaConteudo {
+        height: 120vh;
+
+    }
+
+    .dogTitle2 {
+        font-size: 2.6rem;
+        width: 80vw;
+    }
+
+    .mainTexto2 {
+        font-size: 1.6rem;
+        height: 20vh;
+        width: 70vw;
+    }
+
+    .faleConosco1 {
+        width: 50vw;
+    }
+
+    /* SEGUNDO CÃO FIM */
+
+    /* TERCEIRO CÃO */
+    .mordomia {
+        background-image: url(./assets/cao3mobile2x.png);
+    }
+
+
+    .mordomiaConteudo {
+        height: 120vh;
+    }
+
+    .dogTitle3 {
+        font-size: 2.6rem;
+        width: 80vw;
+
+    }
+
+    .mainTexto3 {
+        font-size: 1.6rem;
+        height: 20vh;
+        width: 70vw;
+        font-weight: lighter;
+
+    }
+
+    .faleConosco2 {
+        width: 50vw;
+
+    }
+
+    /* TERCEIRO CÃO FIM */
+
+    /* RODAPE */
+    footer {
+        height: 110vh;
+    }
+    .logoFooter {
+        display: contents;
+        width: 30px;
+    }
+
+
+    .conteudoApoio {
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apoioTexto {
+        font-size: 1.2rem;
+    }
+
+
+    .patrocinioContainer {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .patrocinio {
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .mobileContent {
+        position: relative;
+        width: 70vw;
+        height: 16vh;
+        top: 10px;
+        left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .figLogoFooter {
+        display: contents;
+    }
+
+    .navFooter {
+        display: contents;
+        display: flex;
+        justify-content: space-evenly;
+        width: 30vw;
+    }
+
+    .sobre {
+        height: 70vh;
+    }
+
+    .contatoInfos {
+        flex-direction: column;
+        font-size: 1.5rem;
+        height: 60vh;
+    }
+
+}
