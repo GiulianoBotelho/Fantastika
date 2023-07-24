@@ -31,30 +31,33 @@ header{
 .welcome{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
     height: 65vw;
+    flex-direction: column;
     background-image: url(./assets/Grupo\ 486@2x.png);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+.boasVindas{
+    display: flex;
+    height: 30vh;
+}
+
 
 .mainTexto1{
     font-weight: 800;
-    position: relative;
-    bottom: 22vh;
-    width: 39vw;
-    height: 18vh;
-    font-size: 3.2rem;
-    text-align: center;
-    padding-top: 18vh;
+    width: 36vw;
+    text-align:center;
+    font-size: 4rem;
+    height: 25vh;
+}
+
+/* .figLogoMain{
 }
 
 .logoInMain{
-    padding-bottom: 60vh;
     transition: 400ms;
-}
+} */
 
 /* SEGUNDO CÃO */
 .banhoTosa{
@@ -172,6 +175,7 @@ header{
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     width: 50vw;
     transition: 500ms;
 }

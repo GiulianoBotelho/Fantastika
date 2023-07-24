@@ -5,6 +5,7 @@
         height: 8vh;
         position: fixed;
         width: 100%;
+        z-index: 2;
     }
 
     .figLogo {
@@ -35,17 +36,14 @@
     }
 
     .mainTexto1 {
-        font-size: 1.8rem;
-        height: 0.2vh;
-        width: 80vw;
-        position: relative;
-        top: 0.2px;
+       font-size: 1.6rem;
+       padding-top: 8vh;
+       width: 64vw;
+       text-align:center;
     }
 
     .logoInMain {
-        width: 120px;
-        position: relative;
-        top: 40px;
+        width: 26vw;
     }
 
     /* PRIMEIRO CÃO FIM */
