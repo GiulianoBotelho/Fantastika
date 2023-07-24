@@ -175,3 +175,18 @@
     }
 
 }
+
+/* TELAS UM POUCO MENORES */
+
+@media screen and (max-width: 400px){
+   
+    .logoInMain{
+        width: 26vw;
+        margin-top: 20px;
+    }
+.faleConosco2{
+    margin-top: 40px;
+}
+
+
+}
