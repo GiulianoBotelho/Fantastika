@@ -35,13 +35,17 @@
     }
 
     .mainTexto1 {
-        font-size: 2rem;
-        height: 6.8vh;
+        font-size: 1.8rem;
+        height: 0.2vh;
         width: 80vw;
+        position: relative;
+        top: 3px;
     }
 
     .logoInMain {
         width: 120px;
+        position: relative;
+        top: 40px;
     }
 
     /* PRIMEIRO CÃO FIM */
@@ -178,9 +182,9 @@
 
 /* TELAS UM POUCO MENORES */
 
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
     .mainTexto1{
-        font-size: 1.8rem;
+        font-size: 1.1rem;
        padding-top: 10px;
     }
    
@@ -192,5 +196,5 @@
     margin-top: 40px;
 }
 
-}
+} */
 

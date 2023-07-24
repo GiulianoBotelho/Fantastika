@@ -48,11 +48,11 @@ header{
     height: 18vh;
     font-size: 4rem;
     text-align: center;
+    padding-top: 12vh;
 }
 
 .logoInMain{
-    position: relative;
-    bottom:200px;
+    padding-bottom: 60vh;
     transition: 400ms;
 }
 
@@ -67,8 +67,7 @@ header{
 }
 
 .banhoTosaConteudo{
-    position: relative;
-    left: 90px;
+    margin-left: 80px;
 }
 
 .dogTitle2{
@@ -79,7 +78,7 @@ header{
 
 .mainTexto2{
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     width: 30vw;
     color: #3A342F;
 }
@@ -92,8 +91,7 @@ header{
     border-radius: 50px;
     font-size: 2rem;
     font-weight: 500;
-    position: relative;
-    top: 60px;
+   margin-bottom: 100px;
     transition: 500ms;
 
 }
@@ -112,13 +110,13 @@ header{
 .dogTitle3{
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 3.8rem;
     width: 26vw;
 }
 
 .mainTexto3{
     font-weight: lighter;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     width: 30vw;
 
 }
@@ -132,8 +130,7 @@ header{
     border-radius: 50px;
     font-size: 2rem;
     font-weight: 500;
-    position: relative;
-    top: 60px;
+    margin-bottom: 100px;
     transition: 500ms;
 }
 
@@ -165,7 +162,7 @@ header{
 .patrocinioContainer{
     display: flex;
     justify-content: space-around;
-    width: 30vw;
+    width: 40vw;
 }
 
 .patrocinio{
@@ -190,7 +187,7 @@ header{
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
-    width: 50vw;
+    width: 70vw;
 }
 
 .figLogoFooter{
@@ -205,32 +202,4 @@ display: none;
     display: none;
 }
 
-
-/* AJUSTE PARA TELAS MENORES */
-
-@media screen and (max-width: 1366px) and (max-height: 768px){
-    .mainTexto1{
-        font-size: 2.8rem;
-    }
-    
-    .logoInMain{
-        width: 10vw;
-    }
-   
-    .mainTexto2{
-        font-size: 2.4rem;
-    }
-
-    .mainTexto3{
-        font-size: 2.4rem;
-    }
-
-    .patrocinioContainer{
-        width: 40vw;
-    }
-
-    .contatoInfos{
-        width: 70vw;
-    }
-}
 
