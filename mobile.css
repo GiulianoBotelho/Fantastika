@@ -179,10 +179,14 @@
 /* TELAS UM POUCO MENORES */
 
 @media screen and (max-width: 400px){
+    .mainTexto1{
+        font-size: 1.8rem;
+       padding-top: 10px;
+    }
    
     .logoInMain{
         width: 26vw;
-        margin-top: 20px;
+        margin-top: 42px;
     }
 .faleConosco2{
     margin-top: 40px;
