@@ -30,7 +30,7 @@
 
     /* PRIMEIRO CÃO */
     .welcome {
-        background-image: url(./assets/mobile2x.png);
+        background-image: url(./assets/cao1-mobile.png);
         height: 90vh;
         background-position: center;
     }
@@ -52,7 +52,7 @@
 
     /* SEGUNDO CÃO */
     .banhoTosa {
-        background-image: url(./assets/cao2mobile2x.png);
+        background-image: url(./assets/cao2mobile.png);
         height: 140vh;
     }
 
@@ -81,7 +81,7 @@
 
     /* TERCEIRO CÃO */
     .mordomia {
-        background-image: url(./assets/cao3mobile2x.png);
+        background-image: url(./assets/cao3mobile.png);
     }
 
 

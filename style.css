@@ -33,7 +33,7 @@ header{
     align-items: center;
     height: 65vw;
     flex-direction: column;
-    background-image: url(./assets/Grupo\ 486@2x.png);
+    background-image: url(./assets/cao1-maior.png);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -135,6 +135,7 @@ header{
     font-weight: 500;
     margin-bottom: 100px;
     transition: 500ms;
+    margin-top: 1rem;
 }
 
  /* RODAPE */
